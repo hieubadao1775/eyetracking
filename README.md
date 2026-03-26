@@ -19,6 +19,5 @@ pip install -r requirements.txt
 
 3. Inference:
 ```
-python inference.py --model resnet50 --weight weights/resnet50.pt --view --calibrate --fullscreen-screen
-
+python inference.py --model resnet50 --weight weights/resnet50.pt --view --source 0 --calibrate --fullscreen-screen
 ```
